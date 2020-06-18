@@ -1,0 +1,15 @@
+C:\Users\320068644\source\repos\StudentXmlApplication\StudentWpfApp\bin\Debug\StudentWpfApp.exe.config
+C:\Users\320068644\source\repos\StudentXmlApplication\StudentWpfApp\bin\Debug\StudentWpfApp.exe
+C:\Users\320068644\source\repos\StudentXmlApplication\StudentWpfApp\bin\Debug\StudentWpfApp.pdb
+C:\Users\320068644\source\repos\StudentXmlApplication\StudentWpfApp\obj\Debug\StudentWpfApp.csprojAssemblyReference.cache
+C:\Users\320068644\source\repos\StudentXmlApplication\StudentWpfApp\obj\Debug\MainWindow.g.cs
+C:\Users\320068644\source\repos\StudentXmlApplication\StudentWpfApp\obj\Debug\App.g.cs
+C:\Users\320068644\source\repos\StudentXmlApplication\StudentWpfApp\obj\Debug\StudentWpfApp_MarkupCompile.cache
+C:\Users\320068644\source\repos\StudentXmlApplication\StudentWpfApp\obj\Debug\StudentWpfApp_MarkupCompile.lref
+C:\Users\320068644\source\repos\StudentXmlApplication\StudentWpfApp\obj\Debug\MainWindow.baml
+C:\Users\320068644\source\repos\StudentXmlApplication\StudentWpfApp\obj\Debug\StudentWpfApp.g.resources
+C:\Users\320068644\source\repos\StudentXmlApplication\StudentWpfApp\obj\Debug\StudentWpfApp.Properties.Resources.resources
+C:\Users\320068644\source\repos\StudentXmlApplication\StudentWpfApp\obj\Debug\StudentWpfApp.csproj.GenerateResource.cache
+C:\Users\320068644\source\repos\StudentXmlApplication\StudentWpfApp\obj\Debug\StudentWpfApp.csproj.CoreCompileInputs.cache
+C:\Users\320068644\source\repos\StudentXmlApplication\StudentWpfApp\obj\Debug\StudentWpfApp.exe
+C:\Users\320068644\source\repos\StudentXmlApplication\StudentWpfApp\obj\Debug\StudentWpfApp.pdb
