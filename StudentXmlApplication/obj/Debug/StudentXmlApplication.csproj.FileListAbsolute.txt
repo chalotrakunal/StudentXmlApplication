@@ -1,7 +1,7 @@
 C:\Users\320068644\source\repos\StudentXmlApplication\StudentXmlApplication\bin\Debug\StudentXmlApplication.exe.config
 C:\Users\320068644\source\repos\StudentXmlApplication\StudentXmlApplication\bin\Debug\StudentXmlApplication.exe
 C:\Users\320068644\source\repos\StudentXmlApplication\StudentXmlApplication\bin\Debug\StudentXmlApplication.pdb
+C:\Users\320068644\source\repos\StudentXmlApplication\StudentXmlApplication\obj\Debug\StudentXmlApplication.csprojAssemblyReference.cache
 C:\Users\320068644\source\repos\StudentXmlApplication\StudentXmlApplication\obj\Debug\StudentXmlApplication.csproj.CoreCompileInputs.cache
 C:\Users\320068644\source\repos\StudentXmlApplication\StudentXmlApplication\obj\Debug\StudentXmlApplication.exe
 C:\Users\320068644\source\repos\StudentXmlApplication\StudentXmlApplication\obj\Debug\StudentXmlApplication.pdb
-C:\Users\320068644\source\repos\StudentXmlApplication\StudentXmlApplication\obj\Debug\StudentXmlApplication.csprojAssemblyReference.cache

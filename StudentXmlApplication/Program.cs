@@ -10,10 +10,7 @@ namespace StudentXmlApplication
     {
         static void Main(string[] args)
         {
-            string filePath = "C:\\Student.xml";
-            StudentParser studentParser = new StudentParser();
-            studentParser.ReadXmlDetails(filePath);
-            var obj=studentParser.GetStudentObject();
+           
         }
     }
 }

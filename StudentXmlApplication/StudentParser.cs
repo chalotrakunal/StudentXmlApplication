@@ -7,21 +7,21 @@ using System.Xml;
 
 namespace StudentXmlApplication
 {
-    class StudentParser
+   public class StudentParser
     {
         XmlDocument docLoad = new XmlDocument();
-
-        StudentData res;
+       
+        StudentData result;
         public StudentData GetStudentObject()
         {
-            return res;
+            return result;
         }
         public void ReadXmlDetails(string xmlFileName)
         {
             StudentData studentData = new StudentData();
             docLoad.Load(xmlFileName);
             XmlNodeList studInfoNodes = docLoad.SelectNodes("//StudentData/StudentInfo");
-            res = GetListOfSudentInfo(studInfoNodes);
+            result = GetListOfSudentInfo(studInfoNodes);
         }
         private StudentData GetListOfSudentInfo(XmlNodeList studInfoNodes)
         {
@@ -31,7 +31,7 @@ namespace StudentXmlApplication
                 string name = studInfoNode.SelectSingleNode("StudentName").InnerText;
                 StudentInfo refstudInfo = new StudentInfo(name);
                 XmlNode subjects = studInfoNode.SelectSingleNode("Subjects");
-                var res = GetMarksOfAllSubjects(subjects);
+                Subjects res = GetMarksOfAllSubjects(subjects);
                 refstudInfo.Add(res);
                 studentData.Add(refstudInfo);
             }
@@ -49,7 +49,7 @@ namespace StudentXmlApplication
             {
                 isPassed = false;
             }
-            Subjects marks = new Subjects(totalMarks, isPassed);
+            Subjects marks = new Subjects(totalMarks, isPassed, physicsMarks, mathMarks, chemistryMarks, biologyMarks);
             return marks;
         }
     }

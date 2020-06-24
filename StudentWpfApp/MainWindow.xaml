@@ -7,6 +7,47 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <ListBox HorizontalAlignment="Center" Height="500"  VerticalAlignment="Top" Width="100">
+            <ListBoxItem Height="auto" Width="auto">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBox Height="auto" Width="100" Grid.Row="0">kunal</TextBox>
+                    <TextBox Height="50" Width="50" HorizontalAlignment="Right" Text="89" Grid.Row="1" Grid.Column="0" />
+                    <Canvas Height="50" Width="50" HorizontalAlignment="Left" Background="Red"  Grid.Row="1" Grid.Column="1"/>
+                </Grid>
+            </ListBoxItem>
+            <ListBoxItem Height="auto" Width="auto">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBox Height="auto" Width="100" Grid.Row="0">rahul</TextBox>
+                    <TextBox Height="50" Width="50" HorizontalAlignment="Right" Text="189" Grid.Row="1" Grid.Column="0" />
+                    <Canvas Height="50" Width="50" HorizontalAlignment="Left" Background="Green"  Grid.Row="1" Grid.Column="1"/>
+                </Grid>
+            </ListBoxItem>
+            <!--<ListBoxItem Height="auto" Width="auto">
+                <StackPanel>
+                    <TextBox Height="auto" Width="100">rahul</TextBox>
+                    <Canvas Height="50" Width="50" HorizontalAlignment="Left" Background="green" ></Canvas>
+                    <TextBox Height="auto" Width="100">Total marks</TextBox>
+                </StackPanel>
+            </ListBoxItem>-->
+        </ListBox>
+
+
     </Grid>
 </Window>

@@ -6,17 +6,33 @@ using System.Threading.Tasks;
 
 namespace StudentXmlApplication
 {
-    class Subjects
+    public class Subjects
     {
         private int _totalMarks;
         private bool _isPassed;
-        public Subjects( int totalMarks, bool isPassed)
+        private int _physics;
+        private int _math;
+        private int _chemistry;
+        private int _biology;
+        public Subjects( int totalMarks, bool isPassed, int physics, int math, int chemistry, int biology)
         {
+            _physics = physics;
             _totalMarks = totalMarks;
-            _isPassed = isPassed;       
+            _isPassed = isPassed;
+            _chemistry = chemistry;
+            _math = math;
+            _biology = biology;
+        }
+        public int GetTotalMarks()
+        {
+            return _totalMarks;
+        }
+        public bool IsPassed()
+        {
+            return _isPassed;
         }
     }
-    class StudentInfo
+   public class StudentInfo
     {
         private Subjects _referSubjects;
         private string _studentName;
@@ -28,8 +44,20 @@ namespace StudentXmlApplication
         {
             _referSubjects = subjects;
         }
+        public string GetStudentName()
+        {
+            return _studentName;
+        }
+        public int  GetMarks()
+        {     
+           return _referSubjects.GetTotalMarks();
+        }
+        public bool GetPassed()
+        {
+           return _referSubjects.IsPassed();
+        }
     }
-    class StudentData
+   public class StudentData
     {
         private List<StudentInfo> _students;
         public StudentData()
@@ -39,6 +67,10 @@ namespace StudentXmlApplication
         public void Add(StudentInfo studentInfo)
         {
             _students.Add(studentInfo);
+        }
+        public List<StudentInfo> GetListOfStudentInfo()
+        {
+            return _students;
         }
     }
 }
